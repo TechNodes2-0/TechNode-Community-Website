@@ -79,6 +79,6 @@ We welcome contributions from the community to make this website even better! To
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-```
 
-Please note that the provided badge URLs and repository URLs are based on the assumption that the repository exists under the GitHub organization "TechNodes2-0." If this is not the case, please adjust the URLs accordingly.
+
+

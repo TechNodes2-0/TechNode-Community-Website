@@ -9,6 +9,9 @@ TechNodes: Empowering tech enthusiasts through open-source collaboration, knowle
 [![GitHub issues](https://img.shields.io/github/issues/TechNodes2-0/TechNode-Community-Website.svg)](https://github.com/TechNodes2-0/TechNode-Community-Website/issues)
 [![GitHub forks](https://img.shields.io/github/forks/TechNodes2-0/TechNode-Community-Website.svg)](https://github.com/TechNodes2-0/TechNode-Community-Website/network)
 [![GitHub stars](https://img.shields.io/github/stars/TechNodes2-0/TechNode-Community-Website.svg)](https://github.com/TechNodes2-0/TechNode-Community-Website/stargazers)
+[![View on Figma](https://img.shields.io/badge/View%20on%20Figma-F24E1E?style=flat&logo=figma&logoColor=white&color=2C2C2C)](https://www.figma.com/file/51rovBgWgyzNCpiHQ2JLln/TechNode?type=design&node-id=0%3A1&t=QFWUiW4nmscqYZA9-1)
+[![Netlify Badge](https://img.shields.io/badge/Netlify-Deployed-brightgreen)](https://technodes.netlify.app/)
+
 
 
 Welcome to the Community Website project! This website aims to bring together community members and provide a platform for collaboration, discussions, and sharing of resources.

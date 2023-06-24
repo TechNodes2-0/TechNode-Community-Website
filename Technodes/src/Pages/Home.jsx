@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
-import NewsLetter from "../components/Newsletter";
+import NewsLetter from "../components/NewsLetter";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Herosection() {
+export default function HeroSection() {
   return (
     <div>
       <section className="bg-gray-900 text-white">

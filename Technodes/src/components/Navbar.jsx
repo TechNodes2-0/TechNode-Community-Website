@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/logo/logo.jpeg";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -12,12 +13,12 @@ export default function Navbar() {
     <div className="px-[2vw] pt-5 bg-primary ">
       <nav className="bg-white border-gray-200 dark:bg-secondary rounded-2xl fixed w-[94vw] z-10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="https://flowbite.com/" className="flex items-center">
+          <Link to='/' className="flex items-center">
             <img src={logo} className="h-8 mr-3" alt="TechNodes" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               TechNodes
             </span>
-          </a>
+          </Link>
           <div className="flex items-center md:order-2">
             <button
               type="button"
@@ -115,12 +116,12 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to='/Projects'
                   className="block py-2 pl-3 pr-4 text-textcolor rounded hover:textdark md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
                 <a

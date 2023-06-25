@@ -5,7 +5,7 @@ import Error from "./Pages/Error";
 
 export default function App() {
   return (
-    <div className="bg-#116278">
+    <div>
       <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Home />}></Route>

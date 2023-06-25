@@ -3,7 +3,7 @@ import React from "react";
 export default function FAQ() {
   return (
     <div>
-      <section className="text-white bg-gray-900">
+      <section className="text-textcolor bg-primary">
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium text-center title-font mb-4">

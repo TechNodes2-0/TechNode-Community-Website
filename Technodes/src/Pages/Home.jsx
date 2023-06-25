@@ -7,13 +7,13 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <>
+    <div className="bg-primary">
       <Navbar />
       <HeroSection />
       <NewsLetter />
       <FAQ />
       <Footer />
-    </>
+    </div>
   );
 }
 

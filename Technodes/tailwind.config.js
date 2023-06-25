@@ -4,13 +4,13 @@ export default {
   theme: {
     backgroundColor: theme => ({
      ...theme('colors'),
-     'primary': '#090580',
-     'secondary': '#46458C'
+     'primary': '#191825',
+     'secondary': '#865DFF'
     }),
     extend: {
       colors: {
-        'textcolor': '#F4D3D3',
-        'textdark': '#E8A9A9'
+        'textcolor': '#FFA3FD',
+        'textdark': '#E384FF'
       }
     }
   },

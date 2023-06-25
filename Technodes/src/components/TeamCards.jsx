@@ -3,7 +3,7 @@ import React from 'react'
 function TeamCards() {
   return (
     <div className='m-10'>
-        <div class="w-full p-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class=" p-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <div class="flex flex-col items-center pb-10">
                 <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://th.bing.com/th/id/OIP.puMo9ITfruXP8iQx9cYcqwHaGJ?pid=ImgDet&rs=1" alt="Bonnie image"/>
                 <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>

@@ -5,6 +5,7 @@ import Projects from "./Pages/Projects";
 import Team from "./Pages/Team";
 import Error from "./Pages/Error";
 import Navbar from "./components/Navbar";
+import Events from "./Pages/Events";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/Projects" element={<Projects />}></Route>
           <Route path="/Team" element={<Team />}></Route>
+          <Route path="/Event" element={<Events />}></Route>
           <Route path="/Error" element={<Error />}></Route>
         </Routes>
       </BrowserRouter>

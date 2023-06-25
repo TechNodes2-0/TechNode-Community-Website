@@ -36,7 +36,7 @@ export default function Navbar() {
 
             {isDropdownOpen && (
               <div
-                className="z-50 absolute right-5 top-2 mt-2 w-48 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+                className="z-50 absolute right-5 top-2 mt-16 w-48 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-secondary dark:divide-gray-800"
                 id="user-dropdown"
               >
                 <div className="px-4 py-3">

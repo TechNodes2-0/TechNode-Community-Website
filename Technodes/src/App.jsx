@@ -5,7 +5,7 @@ import Error from "./Pages/Error";
 
 export default function App() {
   return (
-    <div>
+    <div className="scrollbar-w-0">
       <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Home />}></Route>

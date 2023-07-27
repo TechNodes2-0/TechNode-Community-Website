@@ -9,7 +9,7 @@ export default {
     }),
     extend: {
       colors: {
-        'textcolor': '#FFA3FD',
+        'textcolor': '#EFE1D1',
         'textdark': '#E384FF'
       }
     }

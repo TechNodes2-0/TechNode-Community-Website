@@ -3,7 +3,7 @@ import ProjectCards from '../components/ProjectCards'
 
 function Projects() {
   return (
-    <div className="p-10 mt-20">
+    <div className="p-10 pt-20 bg-primary">
         <p className='text-3xl font-bold text-center'>PROJECTS</p>
         <div className='p-10 flex flex-wrap justify-center items-center'>
             <div>

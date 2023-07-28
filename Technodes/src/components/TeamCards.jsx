@@ -2,7 +2,7 @@ import React from 'react'
 
 function TeamCards() {
   return (
-    <div className='m-10'>
+    <div className='m-10 transition duration-200 hover:scale-105'>
         <div className=" p-5 max-w-sm bg-secondary border border-gray-200 rounded-lg shadow dark:border-gray-700">
             <div className="flex flex-col items-center">
                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://th.bing.com/th/id/OIP.puMo9ITfruXP8iQx9cYcqwHaGJ?pid=ImgDet&rs=1" alt="Bonnie image"/>

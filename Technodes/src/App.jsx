@@ -13,6 +13,7 @@ export default function App() {
     <div className="scrollbar-w-0">
       <BrowserRouter basename="/">
         <Navbar/>
+        <div className="pt-5">
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/Projects" element={<Projects />}></Route>
@@ -21,6 +22,8 @@ export default function App() {
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/Error" element={<Error />}></Route>
         </Routes>
+
+        </div>
       </BrowserRouter>
     </div>
   );

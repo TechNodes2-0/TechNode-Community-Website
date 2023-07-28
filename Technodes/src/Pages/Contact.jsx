@@ -19,8 +19,8 @@ const Contact = () => {
         </div>
         <div>
           <h2 className="text-xl font-bold mb-2">Contact Form</h2>
-          <form>
-            <div className="mb-4">
+          <form className="text-black">
+            <div className="mb-4 text-black">
               <label htmlFor="name" className="block text-textcolor mb-1">
                 Name
               </label>

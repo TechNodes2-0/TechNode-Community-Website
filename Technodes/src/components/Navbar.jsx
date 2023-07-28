@@ -16,7 +16,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="px-[2vw] pt-5 bg-primary ">
+    <div className="px-[2vw] pt-5 bg-primary fixed w-full z-10">
       <nav className="bg-white border-gray-200 dark:bg-secondary rounded-2xl fixed w-[94vw] z-10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to='/' className="flex items-center">

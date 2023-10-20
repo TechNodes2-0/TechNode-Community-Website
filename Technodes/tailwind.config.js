@@ -4,7 +4,7 @@ export default {
   theme: {
     backgroundColor: theme => ({
      ...theme('colors'),
-     'primary': '#331D2C',
+     'primary': '#000000',
      'secondary': '#3F2E3E'
     }),
     extend: {

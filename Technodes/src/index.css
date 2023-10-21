@@ -1,3 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+      background: #141414;
+      @apply scroll-pt-16 scroll-smooth md:scroll-pt-28;
+    }
+    /* #region  /**=========== Typography =========== */
+  
+    .h0 {
+      @apply font-sans text-3xl font-semibold text-content md:text-5xl;
+    }
+  
+    h1,
+    .h1 {
+      @apply font-sans text-3xl font-semibold leading-relaxed text-content md:text-4xl lg:text-5xl;
+    }
+  
+    h2,
+    .h2 {
+      @apply font-sans text-xl font-semibold text-content md:text-3xl;
+    }
+  
+    h3,
+    .h3 {
+      @apply font-sans text-lg font-semibold text-content md:text-xl;
+    }
+  
+    h4,
+    .h4 {
+      @apply font-sans text-base font-semibold text-content md:text-lg;
+    }
+  
+    body,
+    .p {
+      @apply font-sans text-sm font-medium text-content md:text-base;
+    }
+  
+    .heading {
+      @apply  text-center font-sans text-3xl font-black leading-relaxed text-content md:text-5xl lg:text-8xl;
+    }
+  
+    .heading.heading-md {
+      @apply text-4xl md:text-5xl lg:text-6xl;
+    }
+  
+    /* #endregion  /**======== Typography =========== */
+  
+    img {
+      min-width: 0; /* prevent flex items from overflowing horizontally */
+      min-height: 0; /* prevent flex items from overflowing vertically */
+    }
+  
+    .layout {
+      /* 1280px */
+      max-width: 80rem;
+      @apply mx-auto w-11/12;
+    }
+  
+    /* Class to adjust with sticky footer */
+    .min-h-main {
+      @apply min-h-[calc(100vh-56px)];
+    }
+    body::-webkit-scrollbar {
+      height: 6px;
+      width: 6px;
+      background-color: var(--clr-base-100);
+    }
+  
+    body::-webkit-scrollbar-thumb {
+      background-color: #ffffff50;
+    }
+  }

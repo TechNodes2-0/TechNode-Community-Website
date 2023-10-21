@@ -1,18 +1,35 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
+const { fontFamily } = require('tailwindcss/defaultTheme');
+
+module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    backgroundColor: theme => ({
-     ...theme('colors'),
-     'primary': '#141414',
-     'secondary': '#5b46e2'
-    }),
     extend: {
+      fontFamily: {
+        sans: ['General Sans', ...fontFamily.sans],
+      },
       colors: {
-        'textcolor': '#dee3e9',
-        'textdark': '#E384FF'
-      }
-    }
+      
+        content: 'rgb(var(--content) , <alpha-value>)',
+        'primary-disable': 'rgb(var(--primary-disable) , <alpha-value>)',
+        'primary': '#141414',
+        'secondary': '#5b46e2',
+      },
+      screens: {
+        xsm: '370px',
+      },
+      keyframes: {
+        spin: {
+          to: {
+            transform: 'rotate(360deg)',
+          },
+        },
+      },
+      animation: {
+        spin: 'spin 1s linear infinite',
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaDiscord, FaGithub } from "react-icons/fa";
+
 
 export default function AboutUs() {
   return (
@@ -8,9 +8,9 @@ export default function AboutUs() {
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
             <img
-              src="https://ouch-cdn2.icons8.com/xnmdBf_mEe40un3QHP3WETZ7GfHwjfuPy8UrTNeLSOA/rs:fit:368:265/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNDEx/L2ZmMWYyZjE1LWU3/ODItNGY3Yi05MjE4/LTQxYTlhZWQ1MjZl/Ny5wbmc.png"
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="A beautiful landscape"
-              className="relative object-cover w-full h-96 rounded-3xl"
+              className="relative object-cover w-full h-96 mx-auto rounded-3xl"
             />
           </div>
           <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">

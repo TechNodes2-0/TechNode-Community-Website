@@ -1,8 +1,13 @@
-import React from 'react'
-import ProjectCards from '../components/ProjectCards'
-
+import React, { useState } from "react";
+import ProjectCards from "../components/ProjectCards";
 
 function Projects() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [sortOption, setSortOption] = useState("Best Match");
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
 
   const cardData = [
     {
@@ -15,8 +20,7 @@ function Projects() {
       link: "https://electivehub.onrender.com/",
     },
     {
-      image:
-        "",
+      image: "",
 
       heading: "Contentify",
       description:
@@ -25,8 +29,7 @@ function Projects() {
       link: "https://contentifys.netlify.app/",
     },
     {
-      image:
-        "",
+      image: "",
 
       heading: "Laughhub",
       description:
@@ -35,8 +38,7 @@ function Projects() {
       link: "https://laughhub.tech/",
     },
     {
-      image:
-        "",
+      image: "",
 
       heading: "CodeHUb",
       description:
@@ -47,22 +49,76 @@ function Projects() {
   ];
 
   return (
-    <div className="p-10 pt-20 bg-primary">
-        <p className='text-3xl font-bold text-center'>PROJECTS</p>
-        <div className="flex justify-start flex-wrap max-w-4xl mx-auto">
-            {cardData.map(({ image, heading, description,github , link }) => (
-            <ProjectCards
-            key={heading}
-              image={image}
-              heading={heading}
-              description={description}
-              github={github}
-              link={link}
-            />
-          ))}
+    <div className="p-5 pt-20 bg-primary">
+      <p className="text-3xl font-bold text-center">PROJECTS</p>
+
+      <div className="flex justify-center items-center my-10 h-10 max-w-4xl mx-auto">
+        <input
+          key="random1"
+          value=""
+          className="max-w-72 border-0 rounded-md bg-white p-1 font-normal placeholder:text-gray-800"
+          placeholder={"search Project"}
+          onChange=""
+        />
+
+        <div className="relative inline-block text-left ml-5">
+          <button
+            onClick={toggleDropdown}
+            type="button"
+            className="py-1 px-2 border-2 border-main_primary rounded-[5px] text-[12px] lg:text-[14px] hover:bg-gray-700 "
+            id="options-menu"
+            aria-haspopup="listbox"
+            aria-expanded="true"
+          >
+            Sort by: {sortOption}
+          </button>
+
+          {isOpen && (
+            <div
+              className="origin-top-right absolute right-0 mt-1 w-48 rounded-md shadow-lg bg-gray-600 ring-1 ring-black ring-opacity-5 focus:outline-none z-10 bg-main_secondary"
+              role="menu"
+              aria-orientation="vertical"
+              aria-labelledby="options-menu"
+            >
+              <div className="py-1" role="none">
+                {[
+                  "Best Match",
+                  "Most Stars",
+                  "Least Stars",
+                  "Most Forks",
+                  "Least Forks",
+                ].map((option) => (
+                  <a
+                    key={option}
+                    onClick=""
+                    href="#"
+                    className="block px-4 py-2 text-sm text-white hover:bg-gray-700"
+                    role="menuitem"
+                    tabIndex="-1"
+                  >
+                    {option}
+                  </a>
+                ))}
+              </div>
             </div>
+          )}
         </div>
-  )
+      </div>
+
+      <div className="flex justify-center flex-wrap max-w-4xl mx-auto">
+        {cardData.map(({ image, heading, description, github, link }) => (
+          <ProjectCards
+            key={heading}
+            image={image}
+            heading={heading}
+            description={description}
+            github={github}
+            link={link}
+          />
+        ))}
+      </div>
+    </div>
+  );
 }
 
-export default Projects
+export default Projects;

@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="p-10 pt-20 bg-primary">
-      <p className='text-3xl font-bold text-center'>Contact Us</p>
+      <p className='text-4xl mt-8 font-bold text-center'>Contact Us</p>
       <div className="container mx-auto p-4 mt-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-secondary shadow-md rounded-md p-4">
@@ -15,7 +15,6 @@ const Contact = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-xl font-bold mb-2">Contact Form</h2>
             <form>
               <div className="mb-4">
                 <label htmlFor="name" className="block mb-1 text-textcolor">
@@ -26,7 +25,7 @@ const Contact = () => {
                   id="name"
                   name="name"
                   placeholder="Your Name"
-                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-600"
                 />
               </div>
               <div className="mb-4">
@@ -38,7 +37,7 @@ const Contact = () => {
                   id="email"
                   name="email"
                   placeholder="Your Email"
-                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-600 invalid:text-red-500"
                 />
               </div>
               <div className="mb-4">
@@ -50,7 +49,7 @@ const Contact = () => {
                   name="message"
                   rows="4"
                   placeholder="Your Message"
-                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-600"
                 ></textarea>
               </div>
               <button

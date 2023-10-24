@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 export default function Footer() {
   return (
@@ -54,9 +55,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Contact Us
-                  </a>
+                <Link to="/Contact">Contact Us</Link>
                 </li>
               </ul>
             </div>

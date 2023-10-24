@@ -4,22 +4,21 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const [Toggle , setToggle] = useState(false);
-
+  const [Toggle, setToggle] = useState(false);
 
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
   };
 
-  const toggleMenu =() =>{
+  const toggleMenu = () => {
     setToggle(!Toggle);
-  }
+  };
 
   return (
     <div className="px-[2vw] pt-5 bg-primary fixed w-full z-10">
       <nav className="bg-white border-gray-200 dark:bg-secondary rounded-2xl fixed w-[94vw] z-10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <Link to='/' className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img src={logo} className="h-8 mr-3" alt="TechNodes" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               TechNodes
@@ -114,96 +113,98 @@ export default function Navbar() {
           >
             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-secondary dark:border-gray-700">
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white-400 md:p-0 md:dark:white"
+                <Link
+                  to="/"
+                  className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-white-400 md:p-0 md:dark:white md:hover:text-black "
                   aria-current="page"
                 >
                   About us
-                </a>
+                </Link>
               </li>
               <li>
                 <Link
-                  to='/Projects'
-                  className="block py-2 pl-3 pr-4 text-textcolor rounded hover:textdark md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  to="/Projects"
+                  className="block py-2 pl-3 pr-4 text-textcolor rounded hover:textdark md:hover:bg-transparent md:hover:text-black md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Projects
                 </Link>
               </li>
               <li>
                 <Link
-                  to='/Event'
-                  className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  to="/Event"
+                  className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black  md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Events
                 </Link>
               </li>
               <li>
                 <Link
-                  to='/Team'
-                  className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  to="/Team"
+                  className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black  md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Team
                 </Link>
               </li>
               <li>
                 <Link
-                  to='/Contact'
-                  className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  to="/Contact"
+                  className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black  md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Contact
                 </Link>
               </li>
             </ul>
           </div>
-          {Toggle && <div
-            className="items-center justify-between md:hidden w-full md:flex md:w-auto md:order-1"
-            id="mobile-menu-2"
-          >
-            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-secondary dark:border-gray-700">
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white-400 md:p-0 md:dark:white"
-                  aria-current="page"
-                >
-                  About us
-                </a>
-              </li>
-              <li>
-                <Link
-                  to='/Projects'
-                  className="block py-2 pl-3 pr-4 text-textcolor rounded hover:textdark md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to='/Event'
-                  className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to='/Team'
-                  className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Team
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>}
+          {Toggle && (
+            <div
+              className="items-center justify-between md:hidden w-full md:flex md:w-auto md:order-1"
+              id="mobile-menu-2"
+            >
+              <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-secondary dark:border-gray-700">
+                <li>
+                  <a
+                    href="#"
+                    className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white-400 md:p-0 md:dark:white"
+                    aria-current="page"
+                  >
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <Link
+                    to="/Projects"
+                    className="block py-2 pl-3 pr-4 text-textcolor rounded hover:textdark md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >
+                    Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/Event"
+                    className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >
+                    Events
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/Team"
+                    className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >
+                    Team
+                  </Link>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-textdark dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          )}
         </div>
       </nav>
     </div>

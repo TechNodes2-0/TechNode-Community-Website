@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 const DetailCard = ({ image, title, description, url, btnText, git }) => {
   return (
     <>
-      <div className="overflow-hidden rounded-2xl bg-content/5 p-4 bg-[#1c1e1f]">
+      <div className="overflow-hidden rounded-2xl bg-content/5 p-4 bg-[#1f1f1f]">
         <img
           src={image}
           className="aspect-video w-full rounded-lg object-cover object-center"

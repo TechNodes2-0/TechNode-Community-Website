@@ -3,7 +3,7 @@ import EventCard from './EventCard'
 
 export default function EventCards() {
   return (
-    <section id='events' className='bg-[#141414]'>
+    <section id='events' className='bg-[#293140]'>
     <div className='layout py-20'>
       <h1 className='h1'> Events </h1>
       <hr className='styled-hr my-6' />

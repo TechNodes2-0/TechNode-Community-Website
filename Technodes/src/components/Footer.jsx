@@ -1,126 +1,110 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <div>
-      <footer class="bg-primary ">
-        <div class="mx-auto w-full max-w-screen-xl">
-          <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+      <footer className="bg-primary ">
+        <div className="mx-auto w-full max-w-screen-xl">
+          <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-textcolor uppercase">
-                Company
+              <h2 className="mb-6 text-sm font-semibold text-textcolor uppercase">
+                Organization
               </h2>
-              <ul class="text-textdark font-medium">
-                <li class="mb-4">
-                  <a href="#" class=" hover:underline">
+              <ul className="text-textdark font-medium">
+                <li className="mb-4">
+                  <a href="#" className=" hover:underline">
                     About
                   </a>
                 </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Careers
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    FAQs
                   </a>
                 </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Brand Center
-                  </a>
-                </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Blog
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    NewsLetter
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-textcolor uppercase">
-                Help center
+              <h2 className="mb-6 text-sm font-semibold text-textcolor uppercase">
+                Socials
               </h2>
-              <ul class="text-textdark font-medium">
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
+              <ul className="text-textdark font-medium">
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
                     Discord Server
                   </a>
                 </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
                     Twitter
                   </a>
                 </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Facebook
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    Youtube
                   </a>
                 </li>
-                <li class="mb-4">
-                <Link to="/Contact">Contact Us</Link>
+                <li className="mb-4">
+                  <Link to="/Contact">GitHub</Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-textcolor uppercase">
-                Legal
+              <h2 className="mb-6 text-sm font-semibold text-textcolor uppercase">
+                Community
               </h2>
-              <ul class="text-textdark font-medium">
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Privacy Policy
+              <ul className="text-textdark font-medium">
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    Blogs
                   </a>
                 </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Licensing
-                  </a>
-                </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Terms &amp; Conditions
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    Events
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-textcolor uppercase ">
-                Download
+              <h2 className="mb-6 text-sm font-semibold text-textcolor uppercase ">
+                Contact us
               </h2>
-              <ul class="text-textdark font-medium">
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    iOS
+              <ul className="text-textdark font-medium">
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    technodes2.0@gmail.com
                   </a>
                 </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Android
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    Discord
                   </a>
                 </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Windows
-                  </a>
-                </li>
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    MacOS
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    Telegram
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="px-4 py-6 bg-gray-100 dark:bg-secondary md:flex md:items-center md:justify-between">
-            <span class="text-sm text-textdark dark:text-gray-300 sm:text-center">
-              © 2023 <a href="/">TechNodes™</a>. All Rights
-              Reserved.
+          <div className="px-4 py-6 bg-gray-100 dark:bg-secondary md:flex md:items-center md:justify-between">
+            <span className="text-sm text-textdark dark:text-gray-300 sm:text-center">
+              © 2023 <a href="/">TechNodes™</a>. All Rights Reserved.
             </span>
-            <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
+            <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
               <a
                 href="#"
-                class="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -131,14 +115,14 @@ export default function Footer() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="sr-only">Facebook page</span>
+                <span className="sr-only">Facebook page</span>
               </a>
               <a
                 href="#"
-                class="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -149,28 +133,28 @@ export default function Footer() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="sr-only">Instagram page</span>
+                <span className="sr-only">Instagram page</span>
               </a>
               <a
                 href="#"
-                class="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
                   <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                 </svg>
-                <span class="sr-only">Twitter page</span>
+                <span className="sr-only">Twitter page</span>
               </a>
               <a
                 href="#"
-                class="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -181,14 +165,14 @@ export default function Footer() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="sr-only">GitHub account</span>
+                <span className="sr-only">GitHub account</span>
               </a>
               <a
                 href="#"
-                class="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -199,7 +183,7 @@ export default function Footer() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="sr-only">Dribbble account</span>
+                <span className="sr-only">Dribbble account</span>
               </a>
             </div>
           </div>

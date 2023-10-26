@@ -6,7 +6,7 @@ const DetailCard = ({ image, title, description, url, btnText, git }) => {
       <div className="overflow-hidden rounded-2xl bg-content/5 p-4 bg-[#1d1e20]">
         <img
           src={image}
-          className="aspect-video w-full rounded-lg object-cover object-center"
+          className="aspect-video w-full rounded-lg object-cover object-center sm:mb-0"
           alt={title + "banner"}
         />
         <div className="pt-6 pb-3">

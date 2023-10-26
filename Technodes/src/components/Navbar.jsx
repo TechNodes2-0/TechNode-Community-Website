@@ -34,7 +34,7 @@ export default function Navbar() {
             >
               <span className="sr-only">Open user menu</span>
               <img
-                className="w-8 h-8 rounded-full"
+                className="w-8 h-8 rounded-full hover:scale-105"
                 src="https://cdn-icons-png.flaticon.com/512/3291/3291667.png"
                 alt="user photo"
               />

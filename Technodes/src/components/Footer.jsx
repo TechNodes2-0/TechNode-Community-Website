@@ -104,7 +104,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-6 h-6 hover:scale-150"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -122,7 +122,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-6 h-6 hover:scale-150"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -140,7 +140,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-6 h-6 hover:scale-150"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -154,7 +154,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-6 h-6 hover:scale-150"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -172,7 +172,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-6 h-6 hover:scale-150"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"

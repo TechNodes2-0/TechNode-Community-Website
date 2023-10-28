@@ -7,7 +7,7 @@ import Error from "./Pages/Error";
 import Navbar from "./components/Navbar";
 import Event from "./Pages/EventPage/Event"
 import Contact from "./Pages/Contact";
-
+import ProjectPage from "./Pages/ProjectPage/ProjectPage";
 export default function App() {
   return (
     <div className="scrollbar-w-0">
@@ -16,7 +16,7 @@ export default function App() {
         <div className="pt-5">
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/Projects" element={<Projects />}></Route>
+          <Route path="/Projects" element={<ProjectPage />}></Route>
           <Route path="/Event" element={<Event />}></Route>
           <Route path="/Team" element={<Team />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>

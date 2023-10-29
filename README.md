@@ -12,17 +12,17 @@ TechNodes: Empowering tech enthusiasts through open-source collaboration, knowle
 [![View on Figma](https://img.shields.io/badge/View%20on%20Figma-F24E1E?style=flat&logo=figma&logoColor=white&color=2C2C2C)](https://www.figma.com/file/51rovBgWgyzNCpiHQ2JLln/TechNode?type=design&node-id=0%3A1&t=QFWUiW4nmscqYZA9-1)
 [![Netlify Badge](https://img.shields.io/badge/Netlify-Deployed-brightgreen)](https://technodes.netlify.app/)
 
-
-
 Welcome to the Community Website project! This website aims to bring together community members and provide a platform for collaboration, discussions, and sharing of resources.
 
 ## Table of Contents
+
 - [Features](#features)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Features
+
 - User registration and authentication
 - Discussion forums for community members
 - Resource sharing and downloads
@@ -31,22 +31,27 @@ Welcome to the Community Website project! This website aims to bring together co
 - User profiles and messaging system
 
 ## Installation
+
 1. Clone the repository:
+
    ```shell
    git clone https://github.com/TechNodes2-0/TechNode-Community-Website.git
    ```
 
 2. Install dependencies:
+
    ```shell
    cd TechNode-Community-Website
    npm install
    ```
 
 3. Configure the environment variables:
+
    - Rename the `.env.example` file to `.env`.
    - Modify the variables in the `.env` file according to your setup (database connection, API keys, etc.).
 
 4. Start the development server:
+
    ```shell
    npm run dev
    ```
@@ -54,31 +59,9 @@ Welcome to the Community Website project! This website aims to bring together co
    The website should now be accessible at `http://localhost:3000`.
 
 ## Contributing
-We welcome contributions from the community to make this website even better! To contribute, follow the steps below:
 
-1. Fork the repository and clone it locally.
-2. Create a new branch for your contribution:
-   ```shell
-   git checkout -b feature/your-feature
-   ```
-
-3. Make your changes, following the guidelines in the [Contribution Guide](CONTRIBUTING.md).
-4. Test your changes thoroughly.
-5. Commit your changes with descriptive commit messages:
-   ```shell
-   git commit -m "Add feature: your feature description"
-   ```
-
-6. Push your branch to your forked repository:
-   ```shell
-   git push origin feature/your-feature
-   ```
-
-7. Open a pull request (PR) from your branch to the `main` branch of this repository.
-8. Be responsive to feedback and address any requested changes.
+We welcome contributions from the community to make this website even better! To contribute, follow the guidelines outlined in the [Contribution Guide](CONTRIBUTING.md).
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
-
-
-

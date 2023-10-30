@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroSection from '../../components/core/Eventpage/HeroSection'
+import HeroSection from '../../components/core/Eventpage/Herosection'
 import EventCards from '../../components/core/Eventpage/EventCards'
 import NewsLetter  from "../../components/NewsLetter"
 import Footer  from "../../components/Footer"

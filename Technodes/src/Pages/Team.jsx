@@ -20,6 +20,11 @@ const people = [
     role : "Full Stack Developer",
     imageUrl : "https://avatars.githubusercontent.com/u/93467074?s=100&v=4" 
   },
+  {
+    name : "Kartik Bhatiya",
+    role : "Junior Web Developer",
+    imageUrl : "https://avatars.githubusercontent.com/u/95977507?v=4"
+  },
   
 ]
 

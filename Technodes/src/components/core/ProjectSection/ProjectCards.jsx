@@ -10,6 +10,7 @@ const eventsData2 = [
       "https://images.unsplash.com/photo-1524578271613-d550eacf6090?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEJvb2tzfGVufDB8fDB8fHww",
     url: "https://github.com/TechNodes2-0/ElectiveHub",
     btnText: "Know more",
+    deploylink : "https://electivehub.onrender.com/", 
   },
   {
     title: "BioDrop",
@@ -19,6 +20,7 @@ const eventsData2 = [
       "https://user-images.githubusercontent.com/624760/230707268-1f8f1487-6524-4c89-aae2-ab45f0e17f39.png",
     url: "https://github.com/EddieHubCommunity/BioDrop",
     btnText: "Know more",
+    deploylink : "https://biodrop.io/",
   },
   // Add more project data here if needed
 ];

@@ -95,7 +95,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="px-4 py-6 bg-gray-100 dark:bg-secondary md:flex md:items-center md:justify-between">
-            <span className="text-sm text-textdark dark:text-gray-300 sm:text-center">
+            <span className="text-sm text-black text-textdark dark:text-gray-300 sm:text-center">
               © 2023 <a href="/">TechNodes™</a>. All Rights Reserved.
             </span>
             <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
